@@ -1,0 +1,54 @@
+.navbar{
+    width: 95%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-top:10px
+}
+.btn-start{
+    color:white;
+    background-color:black;
+   width:100px;
+   height:50px;
+    border-radius:50px;
+    border:none;
+    cursor: pointer;
+    font-family : Open Sans,"Segoe UI",Tahoma,sans-serif;;
+   
+}
+.btn-signin{
+    width:100px;
+    height:50px;
+    background-color:transparent;
+    color:rgb(38, 38, 211);
+    border: none;
+    cursor: pointer;
+    font-family : Open Sans,"Segoe UI",Tahoma,sans-serif;;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+}
+.nav-items ul li{
+    padding:5px 10px;
+    margin:0px 10px;
+    cursor: pointer;
+    font-family : Open Sans,"Segoe UI",Tahoma,sans-serif;;
+    color: #333
+}
+.nav-items ul li:hover{
+  border-bottom:3px solid grey;
+}
+.logo-container{
+    margin: 10px;
+}
+.logo-container img{
+    width: 130px;;
+}
