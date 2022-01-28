@@ -31,11 +31,13 @@ footer{
     margin-bottom:20px;
     
 }
- span{
+ a{
     color:white;
     font-family: Open Sans,"Segoe UI",Tahoma,sans-serif;
     font-size:16px;
     line-height: 1.8em;
+    text-decoration: none;
+    cursor: pointer;
 
 }
 .container2{
