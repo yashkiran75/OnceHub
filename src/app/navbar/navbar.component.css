@@ -58,9 +58,13 @@
     object-fit: contain;
     display:none
 }
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
 
 @media(max-width: 900px){
-    .nav-items {
+    .nav-inner {
         display: none;
     } 
     .nav-items img {
